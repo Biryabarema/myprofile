@@ -27,7 +27,7 @@ st.write(f"**Field:** {field}")
 st.write(f"**Institution:** {institution}")
 
 # Load the image
-image_path = r"C:\Users\BRYEMM004\Pictures\0011_us.jpg"  # Your local image path
+image_path = "0011_us.jpg"  # Your local image path
 try:
     image = Image.open(image_path)
 except FileNotFoundError:

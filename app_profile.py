@@ -35,11 +35,11 @@ except FileNotFoundError:
     st.stop()
 
 # Resize the image using thumbnail while keeping the aspect ratio
-max_size = (100, 100)  # Max size for width and height
+max_size = (500, 500)  # Max size for width and height
 image.thumbnail(max_size)
 
 # Display the resized image
-st.image(image, caption="Profile Picture", use_column_width=False)
+st.image(image, caption="Profile Picture", use_container_width=False)
 
 
 # Add a section for publications
